@@ -320,6 +320,12 @@ footer {
     margin-bottom: 20px;    
 }
 
+.footer__social--list {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
 
 .footer__logo--image {
     width: 70px;
@@ -335,7 +341,7 @@ footer {
 }
 
     
-.footer__social--list,
+.footer__social--link,
 .footer__copyright {
     color: #fff;
 }
